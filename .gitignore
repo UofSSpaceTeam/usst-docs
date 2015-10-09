@@ -1,0 +1,13 @@
+##########################################
+## IGNORES for the design-docs library
+## Contains defitinions for only temp files created by Visio right now.
+##
+## Last edited by Austin Shirley
+#########################################
+
+###
+### Microsoft Visio (Office)
+###
+
+# Temporary files
+*.~vsdx
