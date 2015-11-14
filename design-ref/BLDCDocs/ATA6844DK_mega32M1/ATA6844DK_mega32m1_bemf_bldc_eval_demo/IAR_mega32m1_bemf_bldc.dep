@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2605088584</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\lib\clib\cl3s-ec_mul-sf.r90</file>
+      <file>$TOOLKIT_DIR$\inc\iom32m1.h</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\config.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\IAR_mega32m1_bemf_bldc.dbg</file>
+      <file>$PROJ_DIR$\Debug\Obj\mc_sensor.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\adc.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\adc.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\inavr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\ata6844.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\mc_drv.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\mc_drv.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\ioavr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\src\template\cfgm32m1.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\sw_timer.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\bitdefinitions\iom32m1.inc</file>
+      <file>$PROJ_DIR$\Debug\Obj\ata6844.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\mc_sensor.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart_32m1.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\IAR_mega32m1_bemf_bldc.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\sw_timer.r90</file>
+      <file>$TOOLKIT_DIR$\src\template\cfg3soim.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart_32m1.r90</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r90</file>
+      <file>$PROJ_DIR$\Debug\Exe\IAR_mega32m1_bemf_bldc.d90</file>
+      <file>$TOOLKIT_DIR$\inc\iomacro.h</file>
+      <file>$PROJ_DIR$\ata6844.c</file>
+      <file>$PROJ_DIR$\ata6844.h</file>
+      <file>$PROJ_DIR$\compiler.h</file>
+      <file>$PROJ_DIR$\adc.c</file>
+      <file>$PROJ_DIR$\dac.h</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\mc_drv.c</file>
+      <file>$PROJ_DIR$\mc_drv.h</file>
+      <file>$PROJ_DIR$\mc_sensor.c</file>
+      <file>$PROJ_DIR$\mc_sensor.h</file>
+      <file>$PROJ_DIR$\sw_timer.c</file>
+      <file>$PROJ_DIR$\sw_timer.h</file>
+      <file>$PROJ_DIR$\timer1.h</file>
+      <file>$PROJ_DIR$\anacomp.h</file>
+      <file>$PROJ_DIR$\adc.h</file>
+      <file>$PROJ_DIR$\uart_32m1.c</file>
+      <file>$PROJ_DIR$\uart_32m1.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\IAR_mega32m1_bemf_bldc.dbg</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 14 22 6 17 24 10 18 21 23 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\IAR_mega32m1_bemf_bldc.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 7 9 13 11 5 15 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\IAR_mega32m1_bemf_bldc.d90</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 14 22 6 17 24 10 18 21 23 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\ata6844.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 29 12 1 26 16 8 2 28</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 12 1 26 16 8 2 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\adc.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 29 12 1 26 16 8 2 41 34 39 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 12 1 26 16 8 2 41 34 39 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 24</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 29 12 1 26 16 8 2 3 41 40 39 31 28 34 36 38 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 12 1 26 16 8 2 3 41 40 39 31 28 34 36 38 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mc_drv.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 10</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 29 12 1 26 16 8 2 3 39 40 41 34 36</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 12 1 26 16 8 2 3 39 40 41 34 36</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\mc_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 29 12 1 26 16 8 2 40 39 34 36 43</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 12 1 26 16 8 2 40 39 34 36 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\sw_timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 21</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 29 12 1 26 16 8 2 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 12 1 26 16 8 2 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\uart_32m1.c</name>
+      <outputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 23</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCAVR</name>
+          <file> 29 12 1 26 16 8 2 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29 12 1 26 16 8 2 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>XLINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

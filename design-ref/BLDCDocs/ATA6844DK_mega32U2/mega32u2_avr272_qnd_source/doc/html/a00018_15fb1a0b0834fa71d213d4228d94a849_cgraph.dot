@@ -1,0 +1,15 @@
+digraph G
+{
+  edge [fontname="FreeSans.ttf",fontsize=10,labelfontname="FreeSans.ttf",labelfontsize=10];
+  node [fontname="FreeSans.ttf",fontsize=10,shape=record];
+  rankdir=LR;
+  Node1 [label="cdc_task",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize=10,style="solid",fontname="FreeSans.ttf"];
+  Node2 [label="cdc_update_serial_state",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00048.html#a81e42821d66a6bfef8aab47320e657a",tooltip="cdc_update_serial_state."];
+  Node1 -> Node3 [color="midnightblue",fontsize=10,style="solid",fontname="FreeSans.ttf"];
+  Node3 [label="uart_putchar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00036.html#67cce31c555ee0da254d7abb6639de0c"];
+  Node1 -> Node4 [color="midnightblue",fontsize=10,style="solid",fontname="FreeSans.ttf"];
+  Node4 [label="uart_usb_getchar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00038.html#3cb02dea12adfefd75d9a932014b149b"];
+  Node1 -> Node5 [color="midnightblue",fontsize=10,style="solid",fontname="FreeSans.ttf"];
+  Node5 [label="uart_usb_test_hit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00038.html#15179da0bc23dc575a00dcb43551a075"];
+}

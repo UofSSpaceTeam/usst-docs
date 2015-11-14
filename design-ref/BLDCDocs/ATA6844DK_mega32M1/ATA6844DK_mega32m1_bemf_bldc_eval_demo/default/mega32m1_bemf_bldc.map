@@ -1,0 +1,680 @@
+Archive member included because of file (symbol)
+
+c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                              uart_32m1.o (__udivmodhi4)
+c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32m1.o (exit)
+c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              uart_32m1.o (__do_copy_data)
+c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              uart_32m1.o (__do_clear_bss)
+
+Allocating common symbols
+Common symbol       size              file
+
+lp_swt              0x2               sw_timer.o
+mc                  0x14              mc_drv.o
+ac                  0x23              mc_sensor.o
+SWT                 0x4               main.o
+a                   0x18              adc.o
+uart                0x82              uart_32m1.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32m1.o
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32m1.o
+ .text          0x00000000        0x0 uart_32m1.o
+ .bss           0x00000000        0x0 uart_32m1.o
+ .text.uart_putx
+                0x00000000        0x0 uart_32m1.o
+ .text          0x00000000        0x0 adc.o
+ .data          0x00000000        0x0 adc.o
+ .bss           0x00000000        0x0 adc.o
+ .text          0x00000000        0x0 ata6844.o
+ .data          0x00000000        0x0 ata6844.o
+ .bss           0x00000000        0x0 ata6844.o
+ .text          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text          0x00000000        0x0 mc_drv.o
+ .data          0x00000000        0x0 mc_drv.o
+ .bss           0x00000000        0x0 mc_drv.o
+ .text          0x00000000        0x0 mc_sensor.o
+ .data          0x00000000        0x0 mc_sensor.o
+ .bss           0x00000000        0x0 mc_sensor.o
+ .text          0x00000000        0x0 sw_timer.o
+ .data          0x00000000        0x0 sw_timer.o
+ .bss           0x00000000        0x0 sw_timer.o
+ .text          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32m1.o
+LOAD uart_32m1.o
+LOAD adc.o
+LOAD ata6844.o
+LOAD main.o
+LOAD mc_drv.o
+LOAD mc_sensor.o
+LOAD sw_timer.o
+START GROUP
+END GROUP
+LOAD c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x14c0
+ *(.vectors)
+ .vectors       0x00000000       0x7c c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32m1.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x0000007c       0xae main.o
+ *(.progmem*)
+ .progmem.data  0x0000012a      0x1af main.o
+ .progmem.data  0x000002d9       0x10 mc_drv.o
+                0x000002d9                nexthall_cw
+                0x000002e1                nexthall_ccw
+                0x000002ea                . = ALIGN (0x2)
+ *fill*         0x000002e9        0x1 00
+                0x000002ea                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000002ea        0x0 linker stubs
+ *(.trampolines*)
+                0x000002ea                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000002ea                __ctors_start = .
+ *(.ctors)
+                0x000002ea                __ctors_end = .
+                0x000002ea                __dtors_start = .
+ *(.dtors)
+                0x000002ea                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000002ea        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32m1.o
+                0x000002ea                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000002ea        0xc c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32m1.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000002f6       0x16 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x000002f6                __do_copy_data
+ .init4         0x0000030c       0x10 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x0000030c                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000031c        0x8 c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32m1.o
+ *(.init9)
+ *(.text)
+ .text          0x00000324        0x4 c:/winavr/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32m1.o
+                0x00000324                __vector_22
+                0x00000324                __vector_28
+                0x00000324                __vector_24
+                0x00000324                __bad_interrupt
+                0x00000324                __vector_6
+                0x00000324                __vector_23
+                0x00000324                __vector_30
+                0x00000324                __vector_25
+                0x00000324                __vector_11
+                0x00000324                __vector_17
+                0x00000324                __vector_19
+                0x00000324                __vector_7
+                0x00000324                __vector_5
+                0x00000324                __vector_4
+                0x00000324                __vector_9
+                0x00000324                __vector_21
+                0x00000324                __vector_29
+                0x00000324                __vector_8
+                0x00000324                __vector_26
+                0x00000324                __vector_14
+                0x00000324                __vector_10
+                0x00000324                __vector_16
+                0x00000324                __vector_18
+                0x00000324                __vector_20
+                0x00000328                . = ALIGN (0x2)
+ *(.text.*)
+ .text.fifo_configure
+                0x00000328        0x8 uart_32m1.o
+                0x00000328                fifo_configure
+ .text.fifo_size
+                0x00000330       0x16 uart_32m1.o
+                0x00000330                fifo_size
+ .text.fifo_push
+                0x00000346       0x1a uart_32m1.o
+                0x00000346                fifo_push
+ .text.fifo_pop
+                0x00000360       0x14 uart_32m1.o
+                0x00000360                fifo_pop
+ .text.uart_task
+                0x00000374       0x22 uart_32m1.o
+                0x00000374                uart_task
+ .text.uart_init
+                0x00000396       0x32 uart_32m1.o
+                0x00000396                uart_init
+ .text.uart_putc
+                0x000003c8        0xc uart_32m1.o
+                0x000003c8                uart_putc
+ .text.uart_received
+                0x000003d4        0x8 uart_32m1.o
+                0x000003d4                uart_received
+ .text.uart_getc
+                0x000003dc        0xe uart_32m1.o
+                0x000003dc                uart_getc
+ .text.uart_puts
+                0x000003ea       0x1e uart_32m1.o
+                0x000003ea                uart_puts
+ .text.uart_puts_P
+                0x00000408       0x22 uart_32m1.o
+                0x00000408                uart_puts_P
+ .text.uart_puti
+                0x0000042a       0xae uart_32m1.o
+                0x0000042a                uart_puti
+ .text.t_adc_state_reset
+                0x000004d8        0x6 adc.o
+                0x000004d8                t_adc_state_reset
+ .text.t_adc_configure
+                0x000004de        0x8 adc.o
+                0x000004de                t_adc_configure
+ .text.t_adc_push
+                0x000004e6       0x18 adc.o
+                0x000004e6                t_adc_push
+ .text.t_adc_getfiltered
+                0x000004fe       0x22 adc.o
+                0x000004fe                t_adc_getfiltered
+ .text.ADC_getfiltered
+                0x00000520       0x46 adc.o
+                0x00000520                ADC_getfiltered
+ .text.ADC_ISR  0x00000566       0x18 adc.o
+                0x00000566                ADC_ISR
+ .text.__vector_27
+                0x0000057e       0x6a adc.o
+                0x0000057e                __vector_27
+ .text.ADC_configure
+                0x000005e8       0x5c adc.o
+                0x000005e8                ADC_configure
+ .text.ATA6844_init_port
+                0x00000644       0x76 ata6844.o
+                0x00000644                ATA6844_init_port
+ .text.ATA6844_reset_DG1
+                0x000006ba       0x12 ata6844.o
+                0x000006ba                ATA6844_reset_DG1
+ .text.main     0x000006cc      0x434 main.o
+                0x000006cc                main
+ .text.mcdrv_getnexths
+                0x00000b00       0x24 mc_drv.o
+                0x00000b00                mcdrv_getnexths
+ .text.DEBUG_enable
+                0x00000b24        0x6 mc_drv.o
+                0x00000b24                DEBUG_enable
+ .text.DEBUG_mcdrv_getstate
+                0x00000b2a        0x6 mc_drv.o
+                0x00000b2a                DEBUG_mcdrv_getstate
+ .text.DEBUG_mcdrv_setstate
+                0x00000b30        0x6 mc_drv.o
+                0x00000b30                DEBUG_mcdrv_setstate
+ .text.DEBUG_mcdrv_getdelay
+                0x00000b36        0xe mc_drv.o
+                0x00000b36                DEBUG_mcdrv_getdelay
+ .text.DEBUG_mcdrv_setdelay
+                0x00000b44        0xa mc_drv.o
+                0x00000b44                DEBUG_mcdrv_setdelay
+ .text.DEBUG_mcdrv_getmeasuredrpm
+                0x00000b4e        0xe mc_drv.o
+                0x00000b4e                DEBUG_mcdrv_getmeasuredrpm
+ .text.DEBUG_mcdrv_getduty
+                0x00000b5c        0xe mc_drv.o
+                0x00000b5c                DEBUG_mcdrv_getduty
+ .text.mcdrv_setspeed
+                0x00000b6a        0xa mc_drv.o
+                0x00000b6a                mcdrv_setspeed
+ .text.mcdrv_getsetspeed
+                0x00000b74        0xe mc_drv.o
+                0x00000b74                mcdrv_getsetspeed
+ .text.mcdrv_setdutycycle
+                0x00000b82       0x34 mc_drv.o
+                0x00000b82                mcdrv_setdutycycle
+ .text.mcdrv_configure
+                0x00000bb6       0xa0 mc_drv.o
+                0x00000bb6                mcdrv_configure
+ .text.mcdrv_reset
+                0x00000c56       0x62 mc_drv.o
+                0x00000c56                mcdrv_reset
+ .text.mcdrv_switch_commutation
+                0x00000cb8       0xee mc_drv.o
+                0x00000cb8                mcdrv_switch_commutation
+ .text.mcdrv_start
+                0x00000da6       0x66 mc_drv.o
+                0x00000da6                mcdrv_start
+ .text.mcdrv_stop
+                0x00000e0c       0x20 mc_drv.o
+                0x00000e0c                mcdrv_stop
+ .text.mcdrv_calc_rpm
+                0x00000e2c       0xa6 mc_drv.o
+                0x00000e2c                mcdrv_calc_rpm
+ .text.ACISR    0x00000ed2       0x76 mc_drv.o
+                0x00000ed2                ACISR
+ .text.__vector_3
+                0x00000f48       0x48 mc_drv.o
+                0x00000f48                __vector_3
+ .text.__vector_2
+                0x00000f90       0x48 mc_drv.o
+                0x00000f90                __vector_2
+ .text.__vector_1
+                0x00000fd8       0x48 mc_drv.o
+                0x00000fd8                __vector_1
+ .text.__vector_13
+                0x00001020       0x82 mc_drv.o
+                0x00001020                __vector_13
+ .text.__vector_12
+                0x000010a2       0xde mc_drv.o
+                0x000010a2                __vector_12
+ .text.mcdrv_control_speed
+                0x00001180       0x6a mc_drv.o
+                0x00001180                mcdrv_control_speed
+ .text.mc_task  0x000011ea       0xce mc_drv.o
+                0x000011ea                mc_task
+ .text.acpipe_configure
+                0x000012b8       0x36 mc_sensor.o
+                0x000012b8                acpipe_configure
+ .text.acpipe_push
+                0x000012ee       0x56 mc_sensor.o
+                0x000012ee                acpipe_push
+ .text.mcsensor_reset
+                0x00001344        0x6 mc_sensor.o
+                0x00001344                mcsensor_reset
+ .text.mcsensor_configure
+                0x0000134a       0x38 mc_sensor.o
+                0x0000134a                mcsensor_configure
+ .text.mcsensor_getmedian
+                0x00001382       0x78 mc_sensor.o
+                0x00001382                mcsensor_getmedian
+ .text.mcsensor_calc
+                0x000013fa        0x2 mc_sensor.o
+                0x000013fa                mcsensor_calc
+ .text.swt_configure
+                0x000013fc       0x40 sw_timer.o
+                0x000013fc                swt_configure
+ .text.__vector_15
+                0x0000143c       0x58 sw_timer.o
+                0x0000143c                __vector_15
+ .text.libgcc   0x00001494       0x28 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x00001494                __udivmodhi4
+                0x000014bc                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000014bc        0x0 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x000014bc                exit
+                0x000014bc                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000014bc        0x4 c:/winavr/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000014c0                _etext = .
+
+.data           0x00800100       0x26 load address 0x000014c0
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100       0x18 uart_32m1.o
+ .data          0x00800118        0xc main.o
+ *(.data*)
+ .data.lasths   0x00800124        0x1 mc_drv.o
+                0x00800124                lasths
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800126                . = ALIGN (0x2)
+ *fill*         0x00800125        0x1 00
+                0x00800126                _edata = .
+                0x00800126                PROVIDE (__data_end, .)
+
+.bss            0x00800126       0xdd
+                0x00800126                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.t_adc_state
+                0x00800126        0x1 adc.o
+                0x00800126                t_adc_state
+ .bss.debug_mode
+                0x00800127        0x1 mc_drv.o
+                0x00800127                debug_mode
+ .bss.sw_cnt    0x00800128        0x2 mc_drv.o
+                0x00800128                sw_cnt
+ .bss.lastts    0x0080012a        0x2 mc_drv.o
+                0x0080012a                lastts
+ *(COMMON)
+ COMMON         0x0080012c       0x82 uart_32m1.o
+                0x0080012c                uart
+ COMMON         0x008001ae       0x18 adc.o
+                0x008001ae                a
+ COMMON         0x008001c6        0x4 main.o
+                0x008001c6                SWT
+ COMMON         0x008001ca       0x14 mc_drv.o
+                0x008001ca                mc
+ COMMON         0x008001de       0x23 mc_sensor.o
+                0x008001de                ac
+ COMMON         0x00800201        0x2 sw_timer.o
+                0x00800201                lp_swt
+                0x00800203                PROVIDE (__bss_end, .)
+                0x000014c0                __data_load_start = LOADADDR (.data)
+                0x000014e6                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800203        0x0
+                0x00800203                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800203                PROVIDE (__noinit_end, .)
+                0x00800203                _end = .
+                0x00800203                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x270
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x80 uart_32m1.o
+ .debug_aranges
+                0x00000080       0x58 adc.o
+ .debug_aranges
+                0x000000d8       0x28 ata6844.o
+ .debug_aranges
+                0x00000100       0x20 main.o
+ .debug_aranges
+                0x00000120       0xe0 mc_drv.o
+ .debug_aranges
+                0x00000200       0x48 mc_sensor.o
+ .debug_aranges
+                0x00000248       0x28 sw_timer.o
+
+.debug_pubnames
+                0x00000000      0x51d
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0xdb uart_32m1.o
+ .debug_pubnames
+                0x000000db       0xb9 adc.o
+ .debug_pubnames
+                0x00000194       0x3e ata6844.o
+ .debug_pubnames
+                0x000001d2       0x23 main.o
+ .debug_pubnames
+                0x000001f5      0x258 mc_drv.o
+ .debug_pubnames
+                0x0000044d       0x91 mc_sensor.o
+ .debug_pubnames
+                0x000004de       0x3f sw_timer.o
+
+.debug_info     0x00000000     0x13f4
+ *(.debug_info)
+ .debug_info    0x00000000      0x374 uart_32m1.o
+ .debug_info    0x00000374      0x215 adc.o
+ .debug_info    0x00000589       0x94 ata6844.o
+ .debug_info    0x0000061d      0x549 main.o
+ .debug_info    0x00000b66      0x5cd mc_drv.o
+ .debug_info    0x00001133      0x1bf mc_sensor.o
+ .debug_info    0x000012f2      0x102 sw_timer.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x77e
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x152 uart_32m1.o
+ .debug_abbrev  0x00000152      0x12b adc.o
+ .debug_abbrev  0x0000027d       0x4a ata6844.o
+ .debug_abbrev  0x000002c7       0xe2 main.o
+ .debug_abbrev  0x000003a9      0x205 mc_drv.o
+ .debug_abbrev  0x000005ae      0x116 mc_sensor.o
+ .debug_abbrev  0x000006c4       0xba sw_timer.o
+
+.debug_line     0x00000000     0x14a2
+ *(.debug_line)
+ .debug_line    0x00000000      0x376 uart_32m1.o
+ .debug_line    0x00000376      0x1e4 adc.o
+ .debug_line    0x0000055a       0xf4 ata6844.o
+ .debug_line    0x0000064e      0x420 main.o
+ .debug_line    0x00000a6e      0x7d3 mc_drv.o
+ .debug_line    0x00001241      0x176 mc_sensor.o
+ .debug_line    0x000013b7       0xeb sw_timer.o
+
+.debug_frame    0x00000000      0x400
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xe0 uart_32m1.o
+ .debug_frame   0x000000e0       0x90 adc.o
+ .debug_frame   0x00000170       0x30 ata6844.o
+ .debug_frame   0x000001a0       0x20 main.o
+ .debug_frame   0x000001c0      0x1a0 mc_drv.o
+ .debug_frame   0x00000360       0x70 mc_sensor.o
+ .debug_frame   0x000003d0       0x30 sw_timer.o
+
+.debug_str      0x00000000      0x60f
+ *(.debug_str)
+ .debug_str     0x00000000      0x17e uart_32m1.o
+                                0x1b7 (size before relaxing)
+ .debug_str     0x0000017e       0xb1 adc.o
+                                0x191 (size before relaxing)
+ .debug_str     0x0000022f       0x33 ata6844.o
+                                0x105 (size before relaxing)
+ .debug_str     0x00000262       0x45 main.o
+                                0x134 (size before relaxing)
+ .debug_str     0x000002a7      0x29f mc_drv.o
+                                0x3d4 (size before relaxing)
+ .debug_str     0x00000546       0x98 mc_sensor.o
+                                0x187 (size before relaxing)
+ .debug_str     0x000005de       0x31 sw_timer.o
+                                0x134 (size before relaxing)
+
+.debug_loc      0x00000000      0x71e
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x1eb uart_32m1.o
+ .debug_loc     0x000001eb       0x90 adc.o
+ .debug_loc     0x0000027b      0x22f main.o
+ .debug_loc     0x000004aa      0x221 mc_drv.o
+ .debug_loc     0x000006cb       0x3b mc_sensor.o
+ .debug_loc     0x00000706       0x18 sw_timer.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(mega32m1_bemf_bldc.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000      0x250
+ .debug_ranges  0x00000000       0x90 uart_32m1.o
+ .debug_ranges  0x00000090       0x50 adc.o
+ .debug_ranges  0x000000e0       0x20 ata6844.o
+ .debug_ranges  0x00000100       0x18 main.o
+ .debug_ranges  0x00000118       0xd8 mc_drv.o
+ .debug_ranges  0x000001f0       0x40 mc_sensor.o
+ .debug_ranges  0x00000230       0x20 sw_timer.o

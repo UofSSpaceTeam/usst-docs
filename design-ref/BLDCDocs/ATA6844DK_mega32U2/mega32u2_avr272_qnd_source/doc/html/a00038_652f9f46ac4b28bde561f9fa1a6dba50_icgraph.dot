@@ -1,0 +1,11 @@
+digraph G
+{
+  edge [fontname="FreeSans.ttf",fontsize=10,labelfontname="FreeSans.ttf",labelfontsize=10];
+  node [fontname="FreeSans.ttf",fontsize=10,shape=record];
+  rankdir=LR;
+  Node1 [label="uart_usb_send_buffer",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled" fontcolor="black"];
+  Node1 -> Node2 [dir=back,color="midnightblue",fontsize=10,style="solid",fontname="FreeSans.ttf"];
+  Node2 [label="uart_usb_putchar",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00039.html#c3f4ae32c984b2265a8e183a797dbb82"];
+  Node1 -> Node3 [dir=back,color="midnightblue",fontsize=10,style="solid",fontname="FreeSans.ttf"];
+  Node3 [label="usart_receive_interrupt",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$a00018.html#6b19228a70d5bfc8d434b7e31b3faf5e"];
+}
